@@ -1,6 +1,35 @@
 # AndroidNotification
 Library for Android Notification
 
+
+For Adding Library into your project 
+
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+  Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.Rajeev02:AndroidNotification:v1.0.1'
+	}
+    
+ Step 3. Add these two lines in your MainActivity
+    
+        AppConstant.setmContext(MainActivity.this);
+        AppConstant.setIntent(new Intent(MainActivity.this, MainActivity.class));
+
+    
+    
 # Sending Push Notifications to Android with Firebase
 
 Before We Start
@@ -127,12 +156,7 @@ Add it into the AndroidManifest.xml file, this makes sure that the service is lo
         </service>
         
         
-5. Add these two lines in your MainActivity
-    
-        AppConstant.setmContext(MainActivity.this);
-        AppConstant.setIntent(new Intent(MainActivity.this, MainActivity.class));
-        
-6. Test and send your first push notification!
+5. Test and send your first push notification!
 
 To see if the setup works, run a test by sending a test message to your own mobile.
 
