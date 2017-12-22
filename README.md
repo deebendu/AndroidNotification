@@ -1,38 +1,3 @@
-# AndroidNotification
-
-Minimum API - 19
-
-Library for Android Notification
-
-
-For Adding Library into your project 
-
-To get a Git project into your build:
-
-Step 1. Add the JitPack repository to your build file
-
-Add it in your root build.gradle at the end of repositories:
-
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}
-    
-  Step 2. Add the dependency
-
-	dependencies {
-	        compile 'com.github.Rajeev02:AndroidNotification:v1.0.1'
-	}
-    
- Step 3. Add these two lines in your MainActivity
-    
-        AppConstant.setmContext(MainActivity.this);
-        AppConstant.setIntent(new Intent(MainActivity.this, MainActivity.class));
-
-    
-    
 # Sending Push Notifications to Android with Firebase
 
 Before We Start
@@ -171,4 +136,39 @@ Now you should get a push notification on your Android mobile. If your app is ru
 
 If the setup is successful, you should get a notification on your mobile. Sometimes, it can take a couple of minutes.
 
-We are done!
+# AndroidNotification Library
+
+Minimum API - 19
+
+Library for Android Notification
+
+
+For Adding Library into your project 
+
+To get a Git project into your build:
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+  Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.Rajeev02:AndroidNotification:v1.0.1'
+	}
+    
+ Step 3. Add these two lines in your MainActivity
+    
+        AppConstant.setmContext(MainActivity.this);
+        AppConstant.setIntent(new Intent(MainActivity.this, MainActivity.class));
+	
+Step 4. you need to send the message From Firebase Console 
+
+
