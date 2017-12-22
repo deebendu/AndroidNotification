@@ -1,4 +1,7 @@
 # AndroidNotification
+
+Minimum API - 19
+
 Library for Android Notification
 
 
