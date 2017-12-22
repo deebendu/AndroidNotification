@@ -132,7 +132,7 @@ To see if the setup works, run a test by sending a test message to your own mobi
 Write down your message and choose an app. Click "SEND MESSAGE".
 
 
-Now you should get a push notification on your Android mobile. If your app is running on the background, you will get it on the mobile's notification center; otherwise you can see it in your Android Monitor log (we have to put a code to log incoming messages) like this.
+Now you should get a push notification on your Android mobile. 
 
 If the setup is successful, you should get a notification on your mobile. Sometimes, it can take a couple of minutes.
 
@@ -170,5 +170,10 @@ Add it in your root build.gradle at the end of repositories:
         AppConstant.setIntent(new Intent(MainActivity.this, MainActivity.class));
 	
 Step 4. you need to send the message From Firebase Console 
+
+Write down your message and choose an app. Click "SEND MESSAGE".
+
+Now you should get a push notification on your Android mobile. 
+
 
 
