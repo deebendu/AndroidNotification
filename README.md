@@ -1,7 +1,7 @@
 # AndroidNotification
 Library for Android Notification
 
-#Sending Push Notifications to Android with Firebase
+# Sending Push Notifications to Android with Firebase
 
 Before We Start
 You'll need the following:
@@ -148,4 +148,5 @@ Compilation problems can be related to wrong version numbers in your build.gradl
 If you see a message like "com.google.firebase.crash.FirebaseCrash is not linked. Skipping initialization." in your
 Android Monitor log, it is ok because we don't use this Firebase Crash Analytics service.
 Firebase initialization is not starting
+
 We are done!
