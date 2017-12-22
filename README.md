@@ -126,7 +126,13 @@ Add it into the AndroidManifest.xml file, this makes sure that the service is lo
             </intent-filter>
         </service>
         
-5. Test and send your first push notification!
+        
+5. Add these two lines in your MainActivity
+    
+        AppConstant.setmContext(MainActivity.this);
+        AppConstant.setIntent(new Intent(MainActivity.this, MainActivity.class));
+        
+6. Test and send your first push notification!
 
 To see if the setup works, run a test by sending a test message to your own mobile.
 
